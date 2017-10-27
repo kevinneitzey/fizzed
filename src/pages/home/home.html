@@ -1,14 +1,38 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
+<ion-header no-border>
+  <ion-navbar transparent>
+
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<ion-content class="bg-orange" fullscreen>
+
+    <div class="container" text-center>
+      <div class="logo">Fizzed</div>
+
+        <div class="players">
+            <ion-list padding>
+
+                <ion-item>
+                    <ion-input type="text" placeholder="Player 1"></ion-input>
+                </ion-item>
+
+                <ion-item>
+                    <ion-input type="text" placeholder="Player 2"></ion-input>
+                </ion-item>
+
+                <ion-item>
+                    <ion-input type="text" placeholder="Player 3"></ion-input>
+                </ion-item>
+
+                <ion-item>
+                    <ion-input type="text" placeholder="Player 4"></ion-input>
+                </ion-item>
+
+            </ion-list>
+        </div>
+        <button ion-button [navPush]="modePage">Let's Go</button>
+
+    </div>
+
 </ion-content>
+

@@ -1,5 +1,8 @@
 {
   "name": "fizzed",
-  "app_id": "",
-  "type": "ionic-angular"
+  "app_id": "f1edc03c",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
 }

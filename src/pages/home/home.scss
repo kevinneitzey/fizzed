@@ -1,3 +1,20 @@
 page-home {
+  .bg-orange{
+    background-color:orangered;
+  }
+  .logo{
+    font-size: 30px;
+    font-family: Helvetica;
+    font-family: Sans-serif;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color:#fff;
+  }
+  .list .item {
+    background-color: transparent;
+    border-top:none !important;
+    border-bottom:none !important;
+    padding:0px !important;
+  }
 
 }
