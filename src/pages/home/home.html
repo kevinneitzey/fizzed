@@ -10,27 +10,24 @@
       <div class="logo">Fizzed</div>
 
         <div class="players">
-            <ion-list padding>
-
-                <ion-item>
-                    <ion-input type="text" placeholder="Player 1"></ion-input>
-                </ion-item>
-
-                <ion-item>
-                    <ion-input type="text" placeholder="Player 2"></ion-input>
-                </ion-item>
-
-                <ion-item>
-                    <ion-input type="text" placeholder="Player 3"></ion-input>
-                </ion-item>
-
-                <ion-item>
-                    <ion-input type="text" placeholder="Player 4"></ion-input>
-                </ion-item>
-
-            </ion-list>
+            <form (ngSubmit)="logForm()">
+                <ion-list padding>
+                    <ion-item>
+                        <ion-input type="text" placeholder="Player 1" [(ngModel)]="players.player1" name="player1"></ion-input>
+                    </ion-item>
+                    <ion-item>
+                        <ion-input type="text" placeholder="Player 2" [(ngModel)]="players.player2" name="player2"></ion-input>
+                    </ion-item>
+                    <ion-item>
+                        <ion-input type="text" placeholder="Player 3" [(ngModel)]="players.player3" name="player3"></ion-input>
+                    </ion-item>
+                    <ion-item>
+                        <ion-input type="text" placeholder="Player 4" [(ngModel)]="players.player4" name="player4"></ion-input>
+                    </ion-item>
+                </ion-list>
+                <button ion-button type="submit">Let's Go</button>
+            </form>
         </div>
-        <button ion-button [navPush]="modePage">Let's Go</button>
 
     </div>
 

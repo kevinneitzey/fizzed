@@ -4,10 +4,10 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { HomePage } from '../pages/home/home';
-/*import { ModePage } from '../pages/mode/mode';
-import { Pack1Page } from '../pages/pack1/pack1';
-import { Pack2Page } from '../pages/pack2/pack2';
-import { Pack3Page } from '../pages/pack3/pack3';*/
+//import { ModePage } from '../pages/mode/mode';
+//import { Pack1Page } from '../pages/pack1/pack1';
+//import { Pack2Page } from '../pages/pack2/pack2';
+//import { Pack3Page } from '../pages/pack3/pack3';
 
 @Component({
   templateUrl: 'app.html'
