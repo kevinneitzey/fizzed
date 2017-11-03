@@ -15,3 +15,21 @@
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
 
+.text-input::-moz-placeholder {
+  color: #942d2d;
+}
+.text-input {
+  color: #fff;
+}
+
+.text-input:-ms-input-placeholder {
+  color: #942d2d;
+}
+.text-input::-webkit-input-placeholder {
+  text-indent: 0;
+  color: #942d2d;
+}
+
+.back-button{
+  color:#fff;
+}

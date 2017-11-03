@@ -1,9 +1,13 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
+
+
 import {Pack1Page} from '../pack1/pack1';
 import {Pack2Page} from '../pack2/pack2';
 import {Pack3Page} from '../pack3/pack3';
+
+//import {HomePage} from '../home/home';
 
 @Component({
   selector: 'page-mode',
@@ -17,7 +21,12 @@ export class ModePage {
 
 
   constructor(public navCtrl: NavController) {
+
+
   }
+
+
+
 
 
 }
